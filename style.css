@@ -108,6 +108,112 @@ body{
     height:500px;
 }
 
+/* Benefits section */
+#key-benefits h2 {
+    background-color: rgba(236, 214, 196, 0.53);
+    text-align: center;
+    padding: 1em;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 74px;
+    color: #fff2e7;
+  }
+  
+  .benefits {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4 ;
+    padding: 25px;
+    
+  }
+  
+  .benefit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+ }
+  
+  .benefit .benefit-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+  }
+  
+  #benefit-1 {
+    background-image: url("img/imagem-não-acredito.jpg");
+  }
+  
+  #benefit-2 {
+    background-image: url("img/imagem-perfil.jpg");
+  }
+  
+  #benefit-3 {
+    background-image: url("img/imagem-pesquisando.jpg");
+  }
+
+
+  /* Event location */
+#location {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url("img/fundo-meio.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2em;
+  }
+  
+  #address,
+  #about-location {
+    max-width: 50%;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4 ;
+    padding: 25px;
+  }
+  
+  #address {
+    display: flex;
+    max-width: 45%;
+  }
+  
+  #address i {
+    font-size: 4em;
+    margin-right: 0.5em;
+  }
+  
+  #address-details {
+    text-align: center;
+    font-size: 1.3em;
+  }
+  
+  #about-location h3 {
+    color: var(--primary);
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+  }
+  
+  #about-location p {
+    line-height: 1.5em;
+  }
+
+
+
 .conteudo-secundario{
     display: flex;
     flex-direction: column;
